@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  background-color: rgb(245, 237, 237);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-right a {
+  margin-right: 50px;
+  cursor: pointer;
+  font-family: 'Silkscreen', cursive;
+}
+
+.navbar-right a:hover {
+  color: rgb(242, 212, 212);
+}
+
+
+.navbar-right input {
+  margin-right: 50px;
+  height: 30px;
+  border: none;
+  border-radius: 50px;
+  position: relative;
+}
+
+.navbar-right input:hover {
+  transform: scale(1.1);
+}
+
+.navbar-right input::placeholder {
+  font-family: 'Silkscreen', cursive;
+  padding: 20px;
+}
+
+.searchInput {
+  position: absolute;
+  margin-right: 570px;
+  cursor: pointer;
+}
+
+.shoppingCart {
+  height: 40px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.shoppingCart:hover {
+  transform: scale(1.2);
+}
+
+.logo {
+  margin-left: 50px;
+  font-family: 'Silkscreen', cursive;
+  cursor: pointer;
+}
+
+.logo span {
+  color: rgb(212, 124, 124);
+}
+
+.logo h1 {
+  color: rgb(121, 63, 63);
+}
+
+.sale {
+  color: red;
+}
+
+.mbappe-section {
+  background-color: rgb(255, 184, 184);
+  text-align: center;
+  font-family: "Nike Futura","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.mbappe-section h1 {
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.mbappe-section p {
+  padding: 20px;
+}
+
+.mbappe-section button {
+  height: 30px;
+  background-color: black;
+  color: white;
+  border:none;
+  border-radius: 50px;
+  width: 10vw;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.mbappe-section button:hover {
+  transform: scale(1.05);
+}
+
+.mbappe-img {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  justify-content: center;
+  
+}
+
+.mbappe-img img {
+  width: 45%;
+  height: 500px;
+  display: flex;
+  padding: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.products {
+  background-color: rgb(255, 255, 255);
+}
+
+.prodDesc {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.products h2 {
+  display: flex;
+  align-items: center;
+  font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  font-weight:400;
+  margin-left: 50px;
+}
+
+.swiper {
+  width: 80%;
+  height: fit-content;
+}
+
+.swiper-slide img{
+  width: auto;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  margin-left: 95px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.footer {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.footer-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-svg img {
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 25px;
+  padding-top: 0px;
+}
+
+.footer-svg img:hover {
+  transform: scale(1.1);
+}
+
+.footerDesc1 ul,
+.footerDesc2 ul {
+  display: flex;
+  justify-content: center;
+  margin-right: 25px;
+}
+
+.footerDesc1 ul li {
+  padding: 15px;
+  padding-top: 0;
+  list-style: none;
+  font-family: 'Silkscreen', cursive;
+  font-size: smaller;
+  cursor: pointer;
+}
+
+.footerDesc2 ul li {
+  list-style: none;
+  padding-top: 0;
+  padding: 8px;
+  font-family: 'Silkscreen', cursive;
+  font-size: smaller;
+  cursor: pointer;
+}
+
+.footerDesc2 ul li:hover,
+.footerDesc1 ul li:hover {
+  color: rgb(242, 212, 212);
+}
